@@ -1,10 +1,10 @@
-import Editor from "./editor.jsx";
+import Editor from "./editor-2.jsx";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			<Editor />
+			<Editor placeholder={"Write something or insert a star ★"} />
 		</div>
 	);
 }
